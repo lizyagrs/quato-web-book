@@ -2,3 +2,5 @@ _book/
 .quarto/
 .DS_Store
 Thumbs.db
+/.quarto/
+**/*.quarto_ipynb

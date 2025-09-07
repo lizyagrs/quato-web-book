@@ -2,12 +2,14 @@ project:
   type: book
 
 book:
-  title: "quato-web-book"
-  author: "Norah Jones"
-  date: "2025/8/30"
+  title: "Web-Beginners-Guide"
+  subtitle: "从零开始，搭建你的第一个网站"
+  author: "李中元"
+  date: "2025/9/1"
   chapters:
     - index.qmd
-    - intro.qmd
+    - chapter1.qmd
+    - chapter2.qmd
     - summary.qmd
     - references.qmd
 

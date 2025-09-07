@@ -1,0 +1,17 @@
+# 搭建开发环境
+
+## 开发环境搭建
+
+- 安装VS Code及其必要插件（如Live Server, Prettier）。
+
+- 安装现代浏览器。
+
+- 使用浏览器开发者工具： 主要学习“元素（Elements）”和“控制台（Console）”面板。
+
+## 编码习惯
+
+如何创建并组织一个清晰的项目文件夹（例如：project-name -> index.html, css/, js/, images/）。
+
+使用Live Server实现实时预览。
+
+使用Prettier进行代码自动格式化，初次接触“代码风格一致性”。
