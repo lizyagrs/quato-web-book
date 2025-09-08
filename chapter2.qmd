@@ -2,16 +2,42 @@
 
 ## 开发环境搭建
 
-- 安装VS Code及其必要插件（如Live Server, Prettier）。
+### 安装与汉化 VS Code
+- 打开浏览器，进入[VS Code 官网](https://code.visualstudio.com/Download)，根据电脑系统（Windows/macOS）下载对应版本的安装包。
+![alt](images/vscode-download.png)|300
 
-- 安装现代浏览器。
+
+- 双击安装包，按照安装向导步骤完成安装（Windows 系统建议勾选 “添加到 PATH” 选项，方便后续操作）。​
+![alt](images/vscode-install-selection.png)
+
+注意勾选“添加到 PATH（重启后生效）” 选项， **“必须勾选，否则后续可能无法通过命令行打开 VS Code”**。
+
+- 打开 VS Code，点击左侧边栏的 “扩展” 图标（或使用快捷键Ctrl+Shift+X/Cmd+Shift+X）。​
+在搜索框中输入 “Chinese (Simplified) Language Pack for Visual Studio Code”，找到对应插件后点击 “安装”。​
+![alt](images/vscode-language.png)
+
+- 安装完成后，右下角会弹出重启提示，点击 “Restart” 重启 VS Code，即可完成汉化。​
+- 
+（需配截图：VS Code 扩展面板与中文插件安装截图） 截图左侧边栏圈出 “扩展” 图标（方块形状），搜索框标注 “输入中文插件全称”，插件列表中圈出 “Chinese (Simplified) Language Pack”，右下角圈出 “Restart” 重启按钮，附文字 “点击后 VS Code 会自动重启，重启后界面变为中文”。
+
+
+### 安装前端必备插件
+   在 VS Code 的 “扩展” 面板中，分别搜索并安装以下 3 个插件：​
+
+   - Live Server：搜索 “Live Server”，点击 “安装”，用于后续实现网页实时预览。​
+   ![alt](images/vscode-live-server.png)
+
+   - Prettier：搜索 “Prettier - Code formatter”，点击 “安装”，可自动格式化代码，统一代码风格。​
+   - Auto Rename Tag：搜索 “Auto Rename Tag”，点击 “安装”，修改 HTML 标签时会自动同步修改配对标签。​
+（需配截图：VS Code 扩展面板搜索插件截图（以 Live Server 为例）） 截图左侧圈出 “扩展” 图标，搜索框输入 “Live Server”，右侧插件列表中圈出 “作者 Ritwick Dey” 的正版插件（避免学生安装同名山寨插件），下方圈出 “安装” 按钮，附文字 “另外两个插件（Prettier、Auto Rename Tag）操作相同，搜索对应名称后点击安装即可”。
+
 
 - 使用浏览器开发者工具： 主要学习“元素（Elements）”和“控制台（Console）”面板。
 
 ## 编码习惯
 
-如何创建并组织一个清晰的项目文件夹（例如：project-name -> index.html, css/, js/, images/）。
+- 如何创建并组织一个清晰的项目文件夹（例如：project-name -> index.html, css/, js/, images/）。
 
-使用Live Server实现实时预览。
+- 使用Live Server实现实时预览。
 
-使用Prettier进行代码自动格式化，初次接触“代码风格一致性”。
+- 使用Prettier进行代码自动格式化，初次接触“代码风格一致性”。

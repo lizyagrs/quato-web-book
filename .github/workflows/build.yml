@@ -1,0 +1,35 @@
+name: Build Book (HTML)
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.4.552 # 使用具体版本
+
+      
+      - name: Render Book ( HTML)
+        run: quarto render
+
+      # (可选) 部署 HTML 到 GitHub Pages
+      - name: Deploy HTML to Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_book # 假设 HTML 输出在根目录
+          publish_branch: gh-pages
+          force_orphan: true
