@@ -14,7 +14,7 @@ book:
     - chapter4.qmd
     - chapter5.qmd
     - summary.qmd
-    - references.qmd
+    # - references.qmd
 
 bibliography: references.bib
 
