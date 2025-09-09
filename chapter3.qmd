@@ -30,6 +30,10 @@
 
 ![](images/hubu-mp4-download.png)
 
+- 下载后的文件，将其重命名为**hubuall.jpg**、**hubu-music.mp3**、**hubumv.mp4**，如下图：
+
+![](images/material-download.png)
+
 - 或者你可自己准备自己感兴趣的素材。
 
 把已准备好的文件，分类放到对应的文件夹中。分类放置后，如下图：
