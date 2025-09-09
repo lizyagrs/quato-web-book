@@ -1,42 +1,73 @@
-# 搭建开发环境
+# 你的第一个网页
 
-## 安装与汉化 VS Code
-- 打开浏览器，进入[VS Code 官网](https://code.visualstudio.com/Download)，根据电脑系统（Windows/macOS）下载对应版本的安装包。
+## 创建你的第一个网页
 
-![](images/vscode-download.png)
+- 创建工程文件夹：在电脑桌面（或自定义路径）右键，选择 “新建 - 文件夹”，将文件夹命名为 ““mywebsite”，附文字”。​
+  ![](images/create-new-folder.png) 
+
+- 如果出现信任文件夹提醒，请选择信任文件夹，点击全部信任：
+
+  ![](images/vscode-trustfolder.png)
+
+- 在 VS Code 中打开文件夹：​
+打开 VS Code，点击左上角 “文件 - 打开文件夹”，选中刚刚创建的 “mywebsite” 文件夹，点击 “选择文件夹”。​
+
+   ![](images/open-folder1.png)
+
+- 新建 index.html 文件：​
+在 VS Code 左侧 “资源管理器” 中，右键点击 ““mywebsite”” 文件夹，选择 “新建文件”，命名为 “index.html”（注意后缀为.html，不可省略）。​
+
+   ![](images/vscode-new-html.png)
+
+- 生成 HTML5 基础骨架：​
+双击打开 “index.html” 文件，在编辑区输入英文感叹号 “!”，然后按下回车键，Emmet 插件会自动生成 HTML5 的基础代码骨架。​
+
+   ![](images/vscode-html-template.png)
+
+- 增大编辑器字号
+  快捷键：**Ctrl+Shift+P**，输入**字号**，弹出快捷选项，选择**增大编辑器字号**，反复操作，直到字号合适。
+
+   ![](images/vscode-increase-font-size.png)
+
+   反之，如果觉得字号太大，也可以使用快捷键**Ctrl+Shift+P**，输入**字号**，弹出快捷选项，选择**减小编辑器字号**。
+
+   ![](images/vscode-decrease-font-size.png)
+
+## 修改网页内容
+​
+- 在生成的代码中，找到```<title> Document </title>```，将 “Document” 改为自定义标题（如 “我的第一个网页”），该标题会显示在浏览器标签栏。​
+- 找到```<body></body>```标签，在两个标签之间输入``` <h1> Hello, World! </h1>```，这是网页的一级标题内容。​
+- 在h1标签的下面继续输入```<p>This is my HTML website.</p>```，这是网页的段落内容。​
+
+   ![](images/vscode-html-content.png)
+
+   完整代码如下：
+
+   ```html
+
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+   </head>
+   <body>
+      <h1>Hello, World!</h1>
+      <p>This is my HTML website.</p>
+   </body>
+   </html>
+
+   ```
+
+## 预览网页
+- 使用Live Server实现实时预览。在 VS Code 编辑区右键，选择 “Open with Live Server”（若未显示该选项，可点击底部状态栏的 “Go Live” 按钮）。​
+
+   ![](images/vscode-open-live-server.png)
 
 
-- 双击安装包，按照安装向导步骤完成安装（Windows 系统建议勾选 “添加到 PATH” 选项，方便后续操作）。​
+- 此时会自动打开浏览器并加载网页，你将看到页面中显示 “Hello, World!”，至此你的第一个网页创建完成。​
 
-![](images/vscode-install-selection.png)
+   ![](images/vscode-preview-html.png)
+- 后续修改 HTML、CSS、JS 等文件后，浏览器会自动刷新，无需手动刷新。
 
-注意勾选“添加到 PATH（重启后生效）” 选项， **“必须勾选，否则后续可能无法通过命令行打开 VS Code”**。
-
-- 打开 VS Code，点击左侧边栏的 “扩展” 图标（或使用快捷键Ctrl+Shift+X/Cmd+Shift+X）。​
-在搜索框中输入 “Chinese (Simplified) Language Pack for Visual Studio Code”，找到对应插件后点击 “安装”。​
-
-![](images/vscode-language.png)
-
-- 安装完成后，右下角会弹出重启提示，点击 “Restart” 重启 VS Code，即可完成汉化。​
-
-
-## 安装前端必备插件
-   在 VS Code 的 “扩展” 面板中，分别搜索并安装以下 3 个插件：​
-
-   - **Live Server**：搜索 “Live Server”，点击 “安装”，用于后续实现网页实时预览。​
-   
-   ![](images/vscode-live-server.png)
-
-   - **Prettier**：搜索 “Prettier - Code formatter”，点击 “安装”，可自动格式化代码，统一代码风格。​
-   
-   ![](images/vscode-prettier.png)
-   
-   - **Auto Rename Tag**：搜索 “Auto Rename Tag”，点击 “安装”，修改 HTML 标签时会自动同步修改配对标签。​
-   
-   ![](images/vscode-auto-renameTag.png)
-
-## 安装浏览器
-
-根据个人习惯，安装  [Edge 浏览器](https://www.microsoft.com/zh-cn/edge)（Windows 系统通常自带，可在微软应用商店更新至最新版）或 [Chrome 浏览器（官网下载）](https://support.google.cn/chrome/index?hl=zh-Hans#topic=7439538) 
-
-![](images/edge-install.png)
