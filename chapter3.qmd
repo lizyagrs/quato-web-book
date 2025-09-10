@@ -4,50 +4,35 @@
 
 - **创建并组织一个清晰的项目文件夹**（例如：project-name -> index.html, css/, img/, mp3/, mp4/）。
  
-   ![](images/vscode-project-classify.png)
+   ![](images/vscode-project-classify.png){width="80%" fig-align="center"}
+
 - **良好的命名习惯**：使用小写字母、数字和短横线（-）组成，避免使用中文、空格和特殊字符。
 - **清晰的项目结构**：建议组织为 index.html, css/, img/, mp3/, mp4/ 等子文件夹，分别存放 HTML、CSS、图片、音频、视频等文件。
 
-   ![](images/good-project-folders.png)
+   ![](images/good-project-folders.png){width="50%" fig-align="center"}
 
-   - **HTML 文件**：文件名建议为 index.html，作为项目的入口文件。
-   - **CSS 文件**：建议在 css/ 文件夹下创建一个或多个 CSS 文件，文件名根据功能或模块命名，例如 style.css、reset.css 等。
-   - **图片文件**：建议在 img/ 文件夹下存放项目所需的图片文件，文件名根据用途或模块命名，例如 logo.png、bg.jpg 等。
-   - **音频文件**：建议在 mp3/ 文件夹下存放项目所需的音频文件，文件名根据用途或模块命名，例如 bgm.mp3、effect.mp3 等。
-   - **视频文件**：建议在 mp4/ 文件夹下存放项目所需的视频文件，文件名根据用途或模块命名，例如 intro.mp4、demo.mp4 等。
-   - **代码文件**：建议在 js/  文件夹下创建一个或多个js文件，文件名根据功能或模块命名，例如 script.js、index.js 等。
+ - **HTML 文件**：文件名建议为 index.html，作为项目的入口文件。
+ - **CSS 文件**：建议在 css/ 文件夹下创建一个或多个 CSS 文件，例如 style.css、reset.css 等。
+ - **图片文件**：建议在 img/ 文件夹下存放项目所需的图片文件，例如 logo.png、bg.jpg 等。
+ - **音频文件**：建议在 mp3/ 文件夹下存放项目所需的音频文件，例如 bgm.mp3、effect.mp3 等。
+ - **视频文件**：建议在 mp4/ 文件夹下存放项目所需的视频文件，例如 intro.mp4、demo.mp4 等。
+ - **代码文件**：建议在 js/  文件夹下创建一个或多个js文件，例如 script.js、index.js 等。
 
 
-## 准备点素材
+## 一个简单的网页
 
-你可以从网上下载一些免费的图片、音频、视频素材，或者使用你自己拍摄的照片和录制的视频。如果实在找不到，这些全都可以从[湖北大学官网](https://www.hubu.edu.cn/)下载：
-- 图片，如 [湖北大学全景图](https://www.hubu.edu.cn/images/20231201.jpg);
-- 音频，如 [湖北大学校歌](https://www.hubu.edu.cn/xxgk/hdzg.htm)，打开链接后，点击音乐播放器右边的**三个点**下载;
+### 利用网络素材制作网页
 
-![校歌下载](images/hubu-mp3-download.png)
+你可以从网上下载一些免费的图片、音频、视频素材，这里以湖北大学官网的在线链接为例：
 
-- 视频，如 [湖北大学之歌MV](https://www.hubu.edu.cn/xxgk/hdzg.htm)，打开链接后，在视频播放器点击**右键**，将视频另存为进行下载;
-
-![](images/hubu-mp4-download.png)
-
-- 下载后的文件，将其重命名为**hubuall.jpg**、**hubu-music.mp3**、**hubumv.mp4**，如下图：
-
-![](images/material-download.png)
-
-- 或者你可自己准备自己感兴趣的素材。
-
-把已准备好的文件，分类放到对应的文件夹中。分类放置后，如下图：
-
-![](images/website-material.png)
-
-## 把素材组织成一个网页
+- 图片，如 湖北大学全景图在线地址：```https://www.hubu.edu.cn/images/20231201.jpg```;
+- 音频，如 湖北大学校歌在线地址：```https://www.hubu.edu.cn/__local/5/50/AB/91701771B9BA40FEE0F06C4FBEE_9DCF0850_642AAD.mp3```;
+- 视频，如 湖北大学之歌MV在线地址：```https://www.hubu.edu.cn/__local/1/52/9E/AB0F466B9E8985AD3CA2517495B_A908C8F4_105A73A8.mp4?e=.mp4```。
 
 - 打开 VS Code 中之前的**mywebsite**工程
-- 打开index.html，在index.html文件中进行编写代码，代码如下：
-
+- 打开index.html，在index.html文件中进行编写代码，代码如下：  
 
 ```html
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -77,13 +62,13 @@
       <p>湖北大学是一个致力于教育的学校，致力于为学生提供优质的教育服务。</p>
 
       <h2 id="panorama">湖北大学正门全景</h2>
-      <p><img src="img/hubuall.jpg" alt="湖北大学正门全景" /></p>
+      <p><img src="https://www.hubu.edu.cn/images/20231201.jpg" alt="湖北大学正门全景" /></p>
 
       <h2 id="music">湖北大学校歌</h2>
-      <p><audio src="mp3/hubu-music.mp3" controls></audio></p>
+      <p><audio src="https://www.hubu.edu.cn/__local/5/50/AB/91701771B9BA40FEE0F06C4FBEE_9DCF0850_642AAD.mp3" controls></audio></p>
 
       <h2 id="video">湖北大学视频</h2>
-      <p><video src="mp4/hubumv.mp4" controls></video></p>
+      <p><video src="https://www.hubu.edu.cn/__local/1/52/9E/AB0F466B9E8985AD3CA2517495B_A908C8F4_105A73A8.mp4?e=.mp4" controls></video></p>
     </main>
   </body>
 
@@ -100,6 +85,84 @@
 </html>
 
 ```
+
+预览网页效果
+
+![](images/index-preview.png){fig-align="center"}
+
+
+### 利用本地素材制作网页
+
+如果你有自己的照片、音频、视频素材，可以把已准备好的文件重命名，如：
+- 照片，如 中国杂交水稻之父照片，重命名为**yuanlp.png**;
+- 音频，如 中国杂交水稻之父的“我有一个梦”，重命名为**我有一个梦.mp3**;
+- 视频，如 中国杂交水稻之父的“我有一个梦”视频，重命名为**我有一个梦.mp4**;
+
+![](images/material-download.png){fig-align="center"}
+
+
+分类放到对应的文件夹中。分类放置后，如下图：
+
+![](images/website-material.png){fig-align="center"}
+
+- 把以上素材组织成一个网页
+- 打开 VS Code 中之前的**mywebsite**工程
+- 新建index_local.html文件，新建index_local.html文件中进行编写代码，代码如下：
+
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>中国杂交水稻之父!</h1>
+    <p>
+      人民英雄网<a href="http://peoplehero.wust.edu.cn/index.php/View/2115.html" target="_blank">中国杂交水稻之父</a>
+    </p>
+    <!-- 这里放导航栏 -->
+    <nav>
+      <ul>
+        <li><a href="#home">首页</a></li>
+        <li><a href="#about">个人简介</a></li>
+        <li><a href="#panorama">照片</a></li>
+        <li><a href="#music">我有一个梦</a></li>
+        <li><a href="#video">视频</a></li>
+        <li><a href="#contact">联系我们</a></li>
+      </ul>
+    </nav>
+    <!-- 这里放内容区域 -->
+    <main>
+      <h2 id="about">个人简介</h2>
+      <p>袁隆平（1930年9月7日-2021年5月22日），男，汉族，生于北京，无党派人士，江西省九江市德安县人。享誉海内外的著名农业科学家，中国杂交水稻事业的开创者和领导者，中国共产党的亲密朋友，无党派人士的杰出代表，“共和国勋章”获得者，湖南省政协原副主席，国家杂交水稻工程技术研究中心原主任，中国工程院院士，被誉为“杂交水稻之父”。</p>
+      <h2 id="panorama">照片</h2>
+      <p><img src="img/yuanlp.png" alt="照片" /></p>
+      <h2 id="music">我有一个梦</h2>
+      <p><audio src="mp3/我有一个梦.mp3" controls></audio></p>
+      <h2 id="video">视频</h2>
+      <p><video src="mp4/yuanlp.mp4" controls></video></p>
+    </main>
+  </body>
+  <!-- 这里放页脚 -->
+  <footer>
+    <p id="contact">
+      联系我们：<a href="http://www.ylpprize.org.cn/">袁隆平农业科技奖励基金会</a>
+      <br />
+      地址：长沙市芙蓉区远大二路736号 湖南杂交水稻研究中心
+      <br />
+      电话：0731-88230098
+    </p>
+  </footer>
+</html>
+```
+
+预览网页效果如下：
+
+![](images/index-local-preview.png){fig-align="center"}
 
 
 ## 代码自动格式化(你只管写，我负责格式化)
