@@ -1,0 +1,232 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Web-Beginners-Guide",
+    "section": "",
+    "text": "前言\n当你打开这本《Web-Beginners-Guide》教程时，或许心中正夹杂着一丝好奇与不确定。好奇的是，那些构成万千世界的网页，究竟是如何被创造出来的；不确定的是，自己作为一个毫无编程经验的“纯小白”，是否真的能理解这些看似复杂的代码。\n请允许我首先告诉你一个肯定的答案：是的，你完全可以！\n学习构建网页，并不是一件专属于计算机天才的神秘之事。它更像是一种新时代的“读写能力”，一种表达自我、连接世界的通用语言。而学习这门语言的最佳方式，就是亲手实践。这正是我们编写这本《Web-Beginners-Guide》的初衷——为你铺就一条最平缓、最友好的入门之路。\n我们刻意避开了深奥难懂的理论，将核心聚焦于三大基础技术：构筑内容的HTML、美化样式的CSS和添加交互的JavaScript。你可以把它们想象成盖房子：HTML是搭建房屋的骨架和墙体，决定了哪里是客厅，哪里是卧室；CSS是装修设计，挑选油漆颜色、摆放家具，让房子变得美观舒适；而JavaScript则是让房子活起来的电路和智能家居，按下开关灯会亮，打开水龙头会有热水。\n在本教程中，你将一步一步地学习如何运用这三种“超能力”。从第一个简单的“Hello, World!”页面开始，到你最终能独立完成一个展示个人风采的主页或一个记录所爱的博客，你会发现，每一个小小的代码改变，都能立即在浏览器中看到直观的效果。这种即时的反馈和成就感，将是驱动你不断探索的最佳动力。\n不要担心会犯错，每一个优秀的开发者都曾在代码的海洋里摸爬滚打。重要的是开始动手，写下你的第一行代码。\n现在，就请你放松心情，准备好你的浏览器和文本编辑器。让我们一起踏上这段激动人心的创造之旅，将你的点滴想法，编织成真实的网页，闪耀在互联网的星河中。\n祝愿你学得愉快，创造得尽兴！\n《Web-Beginners-Guide》编写组",
+    "crumbs": [
+      "前言"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "关于本书",
+    "section": "",
+    "text": "欢迎来到Web的世界\n嘿，未来的创作者，欢迎打开网页设计的大门！\n你是否浏览过各种设计精美的网站，并好奇它们是如何构建出来的？你是否曾想过拥有一个属于自己的小天地，可以展示你的爱好、分享你的作品，或者只是用来练练手？\n如果你的心中闪过一丁点“想试试”的念头，那么这本《Web-Beginners-Guide》就是为你准备的。请完全放心，这本教程不需要你具备任何编程知识，我们真正地从零开始。我们的唯一要求，就是你的好奇心和一点点的动手热情。\n在这里，代码不再是令人头疼的复杂符号，而是你手中像乐高积木一样有趣和直观的创造工具。我们将用最简单易懂的方式，带你亲手搭建起你的第一个网页：\n通过学习这本教程，你将彻底摆脱“只看不会做”的状态。你将系统地掌握构建一个现代静态网站所需的核心基础知识，并获得独立设计、编码和发布一个简单个人网站的能力。无论是制作一份在线简历、一个记录生活的博客，还是一个兴趣分享站，你都能亲手实现。\n这不仅仅是一次技术学习，更是一次创造力的解放。别再犹豫，让我们一起动手，从写下第一行“Hello, World!”开始，一步步将你的想法在互联网上变为现实。你的数字创作之旅，就此启程。",
+    "crumbs": [
+      "关于本书"
+    ]
+  },
+  {
+    "objectID": "intro.html#欢迎来到web的世界",
+    "href": "intro.html#欢迎来到web的世界",
+    "title": "关于本书",
+    "section": "",
+    "text": "第一步，打下“地基”与“骨架”（HTML）：我们将学习如何使用HTML来构建网页的基本结构和内容，比如标题、段落、图片和链接。这是你成为建造师的第一步。\n第二步，穿上漂亮的“外衣”（CSS）：光有骨架可不够，我们还要让网页变好看！学习CSS，你就能轻松地为网页添加颜色、选择字体、调整布局，让它从黑白文本变成真正具有视觉吸引力的页面。\n第三步，注入“互动灵魂”（JavaScript）：静态的页面很棒，但能交互的页面更酷！我们将初步探索JavaScript，教你如何让网页响应你的操作，比如点击按钮弹出提示、制作一个简单的图片轮播等，让你的网页“活”起来。",
+    "crumbs": [
+      "关于本书"
+    ]
+  },
+  {
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "1  搭建开发环境",
+    "section": "",
+    "text": "1.1 安装与汉化 VS Code\n注意勾选“添加到 PATH（重启后生效）” 选项， “必须勾选，否则后续可能无法通过命令行打开 VS Code”。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>搭建开发环境</span>"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#安装与汉化-vs-code",
+    "href": "chapter1.html#安装与汉化-vs-code",
+    "title": "1  搭建开发环境",
+    "section": "",
+    "text": "打开浏览器，进入VS Code 官网，根据电脑系统（Windows/macOS）下载对应版本的安装包。\n\n\n\n双击安装包，按照安装向导步骤完成安装（Windows 系统建议勾选 “添加到 PATH” 选项，方便后续操作）。​\n\n\n\n\n打开 VS Code，点击左侧边栏的 “扩展” 图标（或使用快捷键Ctrl+Shift+X/Cmd+Shift+X）。​ 在搜索框中输入 “Chinese (Simplified) Language Pack for Visual Studio Code”，找到对应插件后点击 “安装”。​\n\n\n\n安装完成后，右下角会弹出重启提示，点击 “Restart” 重启 VS Code，即可完成汉化。​",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>搭建开发环境</span>"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#安装前端必备插件",
+    "href": "chapter1.html#安装前端必备插件",
+    "title": "1  搭建开发环境",
+    "section": "1.2 安装前端必备插件",
+    "text": "1.2 安装前端必备插件\n在 VS Code 的 “扩展” 面板中，分别搜索并安装以下 3 个插件：​\n\nLive Server：搜索 “Live Server”，点击 “安装”，用于后续实现网页实时预览。​\n\n\n\nPrettier：搜索 “Prettier - Code formatter”，点击 “安装”，可自动格式化代码，统一代码风格。​\n\n\n\nAuto Rename Tag：搜索 “Auto Rename Tag”，点击 “安装”，修改 HTML 标签时会自动同步修改配对标签。​",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>搭建开发环境</span>"
+    ]
+  },
+  {
+    "objectID": "chapter1.html#安装浏览器",
+    "href": "chapter1.html#安装浏览器",
+    "title": "1  搭建开发环境",
+    "section": "1.3 安装浏览器",
+    "text": "1.3 安装浏览器\n根据个人习惯，安装 Edge 浏览器（Windows 系统通常自带，可在微软应用商店更新至最新版）或 Chrome 浏览器（官网下载）",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>搭建开发环境</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html",
+    "href": "chapter2.html",
+    "title": "2  你的第一个网页",
+    "section": "",
+    "text": "2.1 创建你的第一个网页",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>你的第一个网页</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#创建你的第一个网页",
+    "href": "chapter2.html#创建你的第一个网页",
+    "title": "2  你的第一个网页",
+    "section": "",
+    "text": "创建工程文件夹：在电脑桌面（或自定义路径）右键，选择 “新建 - 文件夹”，将文件夹命名为 ““mywebsite”，附文字”。​ \n如果出现信任文件夹提醒，请选择信任文件夹，点击全部信任：\n\n在 VS Code 中打开文件夹：​ 打开 VS Code，点击左上角 “文件 - 打开文件夹”，选中刚刚创建的 “mywebsite” 文件夹，点击 “选择文件夹”。​\n\n新建 index.html 文件：​ 在 VS Code 左侧 “资源管理器” 中，右键点击 ““mywebsite”” 文件夹，选择 “新建文件”，命名为 “index.html”（注意后缀为.html，不可省略）。​\n\n生成 HTML5 基础骨架：​ 双击打开 “index.html” 文件，在编辑区输入英文感叹号 “!”，然后按下回车键，Emmet 插件会自动生成 HTML5 的基础代码骨架。​\n\n增大编辑器字号 快捷键：Ctrl+Shift+P，输入字号，弹出快捷选项，选择增大编辑器字号，反复操作，直到字号合适。\n\n反之，如果觉得字号太大，也可以使用快捷键Ctrl+Shift+P，输入字号，弹出快捷选项，选择减小编辑器字号。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>你的第一个网页</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#修改网页内容",
+    "href": "chapter2.html#修改网页内容",
+    "title": "2  你的第一个网页",
+    "section": "2.2 修改网页内容",
+    "text": "2.2 修改网页内容\n​ - 在生成的代码中，找到&lt;title&gt; Document &lt;/title&gt;，将 “Document” 改为自定义标题（如 “我的第一个网页”），该标题会显示在浏览器标签栏。​ - 找到&lt;body&gt;&lt;/body&gt;标签，在两个标签之间输入&lt;h1&gt; Hello, World! &lt;/h1&gt;，这是网页的一级标题内容。​ - 在h1标签的下面继续输入&lt;p&gt;This is my HTML website.&lt;/p&gt;，这是网页的段落内容。​\n\n完整代码如下：\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n   &lt;meta charset=\"UTF-8\"&gt;\n   &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;\n   &lt;title&gt;Document&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n   &lt;h1&gt;Hello, World!&lt;/h1&gt;\n   &lt;p&gt;This is my HTML website.&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>你的第一个网页</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#预览网页",
+    "href": "chapter2.html#预览网页",
+    "title": "2  你的第一个网页",
+    "section": "2.3 预览网页",
+    "text": "2.3 预览网页\n\n使用Live Server实现实时预览。在 VS Code 编辑区右键，选择 “Open with Live Server”（若未显示该选项，可点击底部状态栏的 “Go Live” 按钮）。​\n\n此时会自动打开浏览器并加载网页，你将看到页面中显示 “Hello, World!”，至此你的第一个网页创建完成。​\n\n后续修改 HTML、CSS、JS 等文件后，浏览器会自动刷新，无需手动刷新。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>你的第一个网页</span>"
+    ]
+  },
+  {
+    "objectID": "chapter3.html",
+    "href": "chapter3.html",
+    "title": "3  是时候建一个工程了",
+    "section": "",
+    "text": "3.1 建一堆文件夹",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>是时候建一个工程了</span>"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#建一堆文件夹",
+    "href": "chapter3.html#建一堆文件夹",
+    "title": "3  是时候建一个工程了",
+    "section": "",
+    "text": "创建并组织一个清晰的项目文件夹（例如：project-name -&gt; index.html, css/, img/, mp3/, mp4/）。\n\n\n\n\n\n良好的命名习惯：使用小写字母、数字和短横线（-）组成，避免使用中文、空格和特殊字符。\n清晰的项目结构：建议组织为 index.html, css/, img/, mp3/, mp4/ 等子文件夹，分别存放 HTML、CSS、图片、音频、视频等文件。\n\n\n\n\n\nHTML 文件：文件名建议为 index.html，作为项目的入口文件。\nCSS 文件：建议在 css/ 文件夹下创建一个或多个 CSS 文件，例如 style.css、reset.css 等。\n图片文件：建议在 img/ 文件夹下存放项目所需的图片文件，例如 logo.png、bg.jpg 等。\n音频文件：建议在 mp3/ 文件夹下存放项目所需的音频文件，例如 bgm.mp3、effect.mp3 等。\n视频文件：建议在 mp4/ 文件夹下存放项目所需的视频文件，例如 intro.mp4、demo.mp4 等。\n代码文件：建议在 js/ 文件夹下创建一个或多个js文件，例如 script.js、index.js 等。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>是时候建一个工程了</span>"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#一个简单的网页",
+    "href": "chapter3.html#一个简单的网页",
+    "title": "3  是时候建一个工程了",
+    "section": "3.2 一个简单的网页",
+    "text": "3.2 一个简单的网页\n\n3.2.1 利用网络素材制作网页\n你可以从网上下载一些免费的图片、音频、视频素材，这里以湖北大学官网的在线链接为例：\n\n图片，如 湖北大学全景图在线地址：https://www.hubu.edu.cn/images/20231201.jpg;\n音频，如 湖北大学校歌在线地址：https://www.hubu.edu.cn/__local/5/50/AB/91701771B9BA40FEE0F06C4FBEE_9DCF0850_642AAD.mp3;\n视频，如 湖北大学之歌MV在线地址：https://www.hubu.edu.cn/__local/1/52/9E/AB0F466B9E8985AD3CA2517495B_A908C8F4_105A73A8.mp4?e=.mp4。\n打开 VS Code 中之前的mywebsite工程\n打开index.html，在index.html文件中进行编写代码，代码如下：\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n  &lt;head&gt;\n    &lt;meta charset=\"UTF-8\" /&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;湖北大学欢迎您!&lt;/h1&gt;\n    &lt;p&gt;这是湖北大学的官方网站&lt;a href=\"http://www.hubu.edu.cn\"&gt;&lt;/a&gt;&lt;/p&gt;\n\n    &lt;!-- 这里放导航栏 --&gt;\n    &lt;nav&gt;\n      &lt;ul&gt;\n        &lt;li&gt;&lt;a href=\"#home\"&gt;首页&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#about\"&gt;关于我们&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#panorama\"&gt;湖北大学正门全景&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#music\"&gt;湖北大学校歌&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#video\"&gt;湖北大学视频&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#contact\"&gt;联系我们&lt;/a&gt;&lt;/li&gt;\n      &lt;/ul&gt;\n    &lt;/nav&gt;\n\n    &lt;!-- 这里放内容区域 --&gt;\n    &lt;main&gt;\n      &lt;h2 id=\"about\"&gt;关于我们&lt;/h2&gt;\n      &lt;p&gt;湖北大学是一个致力于教育的学校，致力于为学生提供优质的教育服务。&lt;/p&gt;\n\n      &lt;h2 id=\"panorama\"&gt;湖北大学正门全景&lt;/h2&gt;\n      &lt;p&gt;&lt;img src=\"https://www.hubu.edu.cn/images/20231201.jpg\" alt=\"湖北大学正门全景\" /&gt;&lt;/p&gt;\n\n      &lt;h2 id=\"music\"&gt;湖北大学校歌&lt;/h2&gt;\n      &lt;p&gt;&lt;audio src=\"https://www.hubu.edu.cn/__local/5/50/AB/91701771B9BA40FEE0F06C4FBEE_9DCF0850_642AAD.mp3\" controls&gt;&lt;/audio&gt;&lt;/p&gt;\n\n      &lt;h2 id=\"video\"&gt;湖北大学视频&lt;/h2&gt;\n      &lt;p&gt;&lt;video src=\"https://www.hubu.edu.cn/__local/1/52/9E/AB0F466B9E8985AD3CA2517495B_A908C8F4_105A73A8.mp4?e=.mp4\" controls&gt;&lt;/video&gt;&lt;/p&gt;\n    &lt;/main&gt;\n  &lt;/body&gt;\n\n  &lt;!-- 这里放页脚 --&gt;\n  &lt;footer&gt;\n    &lt;p id=\"contact\"&gt;\n      联系我们：&lt;a href=\"mailto:contact@hubu.edu.cn\"&gt;contact@hubu.edu.cn&lt;/a&gt;\n      &lt;br /&gt;\n      地址：湖北省武汉市武昌区友谊大道368号\n      &lt;br /&gt;\n      电话：027-88661540\n    &lt;/p&gt;\n  &lt;/footer&gt;\n&lt;/html&gt;\n预览网页效果\n\n\n\n\n\n\n\n3.2.2 利用本地素材制作网页\n如果你有自己的照片、音频、视频素材，可以把已准备好的文件重命名，如： - 照片，如 中国杂交水稻之父照片，重命名为yuanlp.png; - 音频，如 中国杂交水稻之父的“我有一个梦”，重命名为我有一个梦.mp3; - 视频，如 中国杂交水稻之父的“我有一个梦”视频，重命名为我有一个梦.mp4;\n\n\n\n\n\n分类放到对应的文件夹中。分类放置后，如下图：\n\n\n\n\n\n\n把以上素材组织成一个网页\n打开 VS Code 中之前的mywebsite工程\n新建index_local.html文件，新建index_local.html文件中进行编写代码，代码如下：\n\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n  &lt;head&gt;\n    &lt;meta charset=\"UTF-8\" /&gt;\n    &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /&gt;\n    &lt;title&gt;Document&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;h1&gt;中国杂交水稻之父!&lt;/h1&gt;\n    &lt;p&gt;\n      人民英雄网&lt;a href=\"http://peoplehero.wust.edu.cn/index.php/View/2115.html\" target=\"_blank\"&gt;中国杂交水稻之父&lt;/a&gt;\n    &lt;/p&gt;\n    &lt;!-- 这里放导航栏 --&gt;\n    &lt;nav&gt;\n      &lt;ul&gt;\n        &lt;li&gt;&lt;a href=\"#home\"&gt;首页&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#about\"&gt;个人简介&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#panorama\"&gt;照片&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#music\"&gt;我有一个梦&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#video\"&gt;视频&lt;/a&gt;&lt;/li&gt;\n        &lt;li&gt;&lt;a href=\"#contact\"&gt;联系我们&lt;/a&gt;&lt;/li&gt;\n      &lt;/ul&gt;\n    &lt;/nav&gt;\n    &lt;!-- 这里放内容区域 --&gt;\n    &lt;main&gt;\n      &lt;h2 id=\"about\"&gt;个人简介&lt;/h2&gt;\n      &lt;p&gt;袁隆平（1930年9月7日-2021年5月22日），男，汉族，生于北京，无党派人士，江西省九江市德安县人。享誉海内外的著名农业科学家，中国杂交水稻事业的开创者和领导者，中国共产党的亲密朋友，无党派人士的杰出代表，“共和国勋章”获得者，湖南省政协原副主席，国家杂交水稻工程技术研究中心原主任，中国工程院院士，被誉为“杂交水稻之父”。&lt;/p&gt;\n      &lt;h2 id=\"panorama\"&gt;照片&lt;/h2&gt;\n      &lt;p&gt;&lt;img src=\"img/yuanlp.png\" alt=\"照片\" /&gt;&lt;/p&gt;\n      &lt;h2 id=\"music\"&gt;我有一个梦&lt;/h2&gt;\n      &lt;p&gt;&lt;audio src=\"mp3/我有一个梦.mp3\" controls&gt;&lt;/audio&gt;&lt;/p&gt;\n      &lt;h2 id=\"video\"&gt;视频&lt;/h2&gt;\n      &lt;p&gt;&lt;video src=\"mp4/yuanlp.mp4\" controls&gt;&lt;/video&gt;&lt;/p&gt;\n    &lt;/main&gt;\n  &lt;/body&gt;\n  &lt;!-- 这里放页脚 --&gt;\n  &lt;footer&gt;\n    &lt;p id=\"contact\"&gt;\n      联系我们：&lt;a href=\"http://www.ylpprize.org.cn/\"&gt;袁隆平农业科技奖励基金会&lt;/a&gt;\n      &lt;br /&gt;\n      地址：长沙市芙蓉区远大二路736号 湖南杂交水稻研究中心\n      &lt;br /&gt;\n      电话：0731-88230098\n    &lt;/p&gt;\n  &lt;/footer&gt;\n&lt;/html&gt;\n预览网页效果如下：",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>是时候建一个工程了</span>"
+    ]
+  },
+  {
+    "objectID": "chapter3.html#代码自动格式化你只管写我负责格式化",
+    "href": "chapter3.html#代码自动格式化你只管写我负责格式化",
+    "title": "3  是时候建一个工程了",
+    "section": "3.3 代码自动格式化(你只管写，我负责格式化)",
+    "text": "3.3 代码自动格式化(你只管写，我负责格式化)\n\n使用快捷键 Shift+Alt+F 格式化当前文件。\n使用Prettier进行代码自动格式化，初次接触“代码风格一致性”。\n\n在 VS Code 中，点击左下角齿轮图标，选择 “设置”。\n在搜索框中输入 “Prettier”，找到 Prettier 插件的设置选项。\n勾选 “Format On Save” 选项，保存文件时会自动格式化代码。\n使用快捷键 Ctrl+S/Cmd+S 保存文件，即可看到代码被自动格式化，保持代码风格一致。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>是时候建一个工程了</span>"
+    ]
+  },
+  {
+    "objectID": "chapter4.html",
+    "href": "chapter4.html",
+    "title": "4  为网页添加CSS样式",
+    "section": "",
+    "text": "4.1 CSS 基础语法",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>为网页添加CSS样式</span>"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#css-基础语法",
+    "href": "chapter4.html#css-基础语法",
+    "title": "4  为网页添加CSS样式",
+    "section": "",
+    "text": "4.1.1 选择器\n\n\n4.1.1.1 通用选择器\n通用选择器可以是标签名、类名、ID等。\n属性是元素的特征，值是属性的具体表现。\n多个属性之间用分号隔开。\n\n选择器 {\n    属性: 值;\n}\n \n举例：\n标签选择器\np {\n    color: red;\n}\n类选择器\n.classname {\n    color: red;\n}\nID选择器\n#idname {\n    color: red;\n}\n通配符选择器\n* {\n    color: red;\n}\n\n\n4.1.1.2 子选择器\n子选择器只能选择直接子元素，不能选择孙元素。\n\n后代选择器\n选择器1 选择器2 {\n    color: red;\n}\n\n举例:\ndiv p {\n    color: red;\n}\n\n\n子选择器\n选择器1 &gt; 选择器2 {\n    color: red;\n}\n\n举例:\ndiv &gt; p {\n    color: red;\n}\n\n\n注释：\n/* 这是一个注释 */",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>为网页添加CSS样式</span>"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#引入css的方式",
+    "href": "chapter4.html#引入css的方式",
+    "title": "4  为网页添加CSS样式",
+    "section": "4.2 引入CSS的方式",
+    "text": "4.2 引入CSS的方式\n\n4.2.1 行内样式\n行内样式是在HTML标签中使用style属性来定义样式。\n行内样式的优先级最高，会覆盖其他样式。\n\n\n4.2.2 内部样式表\n内部样式表是在HTML文档的head标签中使用style标签来定义样式。\n内部样式表的优势是可以将样式与HTML文档分离，方便维护和管理。\n\n\n4.2.3 外部样式表\n外部样式表是在HTML文档的head标签中使用link标签来引入外部的CSS文件。\n外部样式表的优势是可以将样式与HTML文档分离，方便维护和管理。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>为网页添加CSS样式</span>"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#颜色与单位",
+    "href": "chapter4.html#颜色与单位",
+    "title": "4  为网页添加CSS样式",
+    "section": "4.3 颜色与单位",
+    "text": "4.3 颜色与单位\n颜色可以用颜色名、十六进制值、RGB值等表示。\n单位有px、em、rem、%等。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>为网页添加CSS样式</span>"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#字体与文本",
+    "href": "chapter4.html#字体与文本",
+    "title": "4  为网页添加CSS样式",
+    "section": "4.4 字体与文本",
+    "text": "4.4 字体与文本\n字体可以用字体名、字体族等表示。\n文本可以用字体大小、字体颜色、字体样式等表示。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>为网页添加CSS样式</span>"
+    ]
+  },
+  {
+    "objectID": "chapter4.html#盒模型与布局",
+    "href": "chapter4.html#盒模型与布局",
+    "title": "4  为网页添加CSS样式",
+    "section": "4.5 盒模型与布局",
+    "text": "4.5 盒模型与布局\n盒模型是指元素在页面中的布局方式。\n盒模型包括内容区域、内边距、边框、外边距。\n内容区域是元素的实际内容，内边距是元素内容与边框的距离，边框是元素的边框，外边距是元素与其他元素的距离。\n盒模型的宽度和高度是内容区域的宽度和高度加上内边距和边框的宽度和高度。\n盒模型的宽度和高度可以用px、em、rem、%等单位表示。\n\npadding, border, margin 都是用来设置元素的内边距、边框、外边距的。\npadding 是元素内容与边框的距离。\nborder 是元素的边框。\nmargin 是元素与其他元素的距离。\n举例：\npadding: 10px;\nborder: 1px solid red;\nmargin: 10px;\n注释：\n以上属性可以用缩写形式表示，例如：\npadding: 10px 20px;\nborder: 1px solid red;\nmargin: 10px 20px;",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>为网页添加CSS样式</span>"
+    ]
+  },
+  {
+    "objectID": "chapter5.html",
+    "href": "chapter5.html",
+    "title": "5  经典布局技术 - 定位",
+    "section": "",
+    "text": "制作一个固定在页面顶部的导航栏（position: fixed） \n注释：\n以上代码会将导航栏固定在页面顶部，不会随着页面滚动而滚动。\n导航栏的宽度设置为100%，背景颜色为#333，文字颜色为#fff，内边距为10px。\n导航栏的文字会水平居中显示。",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>经典布局技术 - 定位</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "6  Summary",
+    "section": "",
+    "text": "《Web-Beginners-Guide》是一本专为毫无编程经验的初学者设计的友好教程。它系统性地讲解了网页设计的三大核心技能：HTML（内容结构）、CSS（视觉样式）和JavaScript（交互逻辑）。通过清晰的讲解和即时实践的引导，本教程旨在帮助你从零开始，逐步获得独立规划、设计和发布个人静态网站的能力，轻松将你的创意转化为真实的网页。",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  }
+]
